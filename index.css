@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #heading{
+    background-color : rgb(8, 138, 125) ;
+    color : white;
+    font-size: 2rem;
+    height : 45px;
+  }
+  
+  #flex{
+    display: flex;
+    word-wrap: unset;
+  }
+  
+  #qList{
+    background-color: rgb(233, 233, 233);
+    height: 100vh;
+    width : 50vw;
+    border-right: 2px solid rgb(196, 193, 193);
+  }
+  
+  #addQ{
+    height: 100vh;
+    width : 50vw;
+  }
+  
+  #btn-search{
+    background-color: white;
+    height: 53px;
+  }
+  
+  #newQues{
+    background-color: blue;
+    color : white;
+    margin: 13px;
+    height : 30px;
+    border-radius: 7px;
+    width : 150px;
+    border : 2px solid rgb(124, 179, 241);
+  }
+  
+  #addQuesForm{
+    margin-top: 50px;
+    margin-left: 43px;
+  }
+  
+  .search{
+    height : 28px;
+    padding-left: 8px;
+  }
+  
+  #desc{
+    font-weight: 600;
+  }
+  
+  .ques{
+    font-size : 0.9rem;
+    padding-left: 8px;
+    padding-top: 5px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  #submit{
+    height : 30px;
+    width : 60px;
+    background-color: blue;
+    color : white;
+    border: none;
+    margin-left: 350px;
+  }
+  
+  #response{
+    height : 28px;
+    width : 60px;
+    background-color: blue;
+    color : white;
+    border: none;
+    margin-left: 400px;
+  }
+  
+  #subTitle{
+    margin-left: 17px;
+    margin-top: 5px;
+    color: rgb(85, 83, 83);
+  }
+  
+  #quesDet{
+    margin-left: 17px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .question{
+    margin-top : 40px;
+    margin-left: 20px;
+    color: rgb(156, 155, 155);
+  }
+  
+  #resQ{
+    margin-left: 20px;
+    background-color: rgba(230, 230, 230, 0.685);
+    padding: 5px;
+    width: 43vw;
+  }
+  
+  #resp{
+    margin-top : 20px;
+    margin-left: 20px;
+    color: rgb(156, 155, 155);
+  }
+  
+  #addResp{
+    margin-top : 20px;
+    margin-left: 20px;
+    color: rgb(156, 155, 155);
+  }
+  
+  #name{
+    /* margin-top : 50px; */
+    margin-left: 20px;
+    height : 25px;
+    padding : 2px;
+  }
+  
+  #comment{
+    margin-left: 20px;
+    font-size : 0.9rem;
+    padding-left: 8px;
+    padding-top: 5px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .subm{
+    height : 28px;
+    width : 60px;
+    background-color: blue;
+    color : white;
+    border: none;
+    margin-left: 400px;
+  }
+  
+  #name-com{
+    background-color: rgba(230, 230, 230, 0.685);
+    width: 43vw;
+    margin-left: 20px;
+    padding-top: 8px;
+    padding-left: 5px;
+  }
